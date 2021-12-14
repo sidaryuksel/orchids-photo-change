@@ -1,0 +1,53 @@
+/*write our comment in here */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+/*What we are selecting*/
+h1 {
+    /*How we style it*/
+    font-weight: 200;
+    font-size: 50px;
+    border-top: 5px solid rgb(20, 112, 116);
+    text-transform: uppercase;
+}
+body {
+    background-color: bisque;
+    color: rgb(20, 112, 116);
+    font-family: "Source Code Pro";
+    font-weight: 200;
+}
+img {
+    height: 500px;
+    border-radius: 50%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140vh;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: bisque;
+    color: rgb(20, 112, 116);
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid rgb(20, 112, 116);
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    letter-spacing: 4px;
+}
+button:hover {
+    transition: 0.3s;
+    background-color: rgb(20, 112, 116);
+    color: bisque;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+}
